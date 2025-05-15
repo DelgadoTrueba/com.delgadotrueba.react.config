@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/DelgadoTrueba/com.delgadotrueba.react.zeroconfig/issues"
   },
-  "homepage": "https://github.com/DelgadoTrueba/com.delgadotrueba.react.zeroconfig#readme"
+  "homepage": "https://github.com/DelgadoTrueba/com.delgadotrueba.react.zeroconfig#readme",
+  "workspaces": [
+    "libs/tsconfig"
+  ]
 }
