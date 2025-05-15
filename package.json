@@ -1,0 +1,25 @@
+{
+  "name": "@delgadotrueba/react-zeroconfig",
+  "version": "0.0.1",
+  "description": "Delgado Trueba React Zero Config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DelgadoTrueba/com.delgadotrueba.react.zeroconfig.git"
+  },
+  "keywords": [
+    "delgadotrueba",
+    "react",
+    "zero-config",
+    "zeroconfig"
+  ],
+  "author": "delgadotrueba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DelgadoTrueba/com.delgadotrueba.react.zeroconfig/issues"
+  },
+  "homepage": "https://github.com/DelgadoTrueba/com.delgadotrueba.react.zeroconfig#readme"
+}
