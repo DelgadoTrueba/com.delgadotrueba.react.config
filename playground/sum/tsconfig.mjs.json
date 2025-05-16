@@ -1,5 +1,5 @@
 {
-    "extends": "@delgadotrueba/react-config/dist/tsconfig/tsc/dom/app",
+    "extends": "@delgadotrueba/react-config/tsconfig/tsc/dom/app",
     "compilerOptions": {
       "outDir": "./dist/mjs",
       "rootDir": "./src",

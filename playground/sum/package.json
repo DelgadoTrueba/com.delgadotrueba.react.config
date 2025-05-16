@@ -7,7 +7,7 @@
     "build:mjs": "npx tsc -p tsconfig.mjs.json"
   },
   "devDependencies": {
-    "@delgadotrueba/react-config": "0.0.5",
+    "@delgadotrueba/react-config": "0.0.7",
     "typescript": "5.8.3"
   }
 }
