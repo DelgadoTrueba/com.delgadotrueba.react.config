@@ -18,6 +18,8 @@
     "noImplicitOverride": true,
     /* If transpiling with TypeScript: */
     "module": "NodeNext",
+    "moduleResolution": "nodenext",
+
     // "moduleResolution": "node",
     "sourceMap": true,
     /* If your code doesn't run in the DOM: */

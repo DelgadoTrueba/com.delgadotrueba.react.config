@@ -15,7 +15,7 @@
 
     /* Advanced Options: Optimitations */
     "skipLibCheck": true,
-    "importHelpers": true,
+    "importHelpers": true, // tslib
     "incremental": true,
 
     /* Advanced Options: Emit */
@@ -26,13 +26,13 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noUncheckedIndexedAccess": true,
-
     "noImplicitOverride": true,
     "strictNullChecks": true,
     "noFallthroughCasesInSwitch": true,
 
     /* If transpiling with TypeScript: */
-    "module": "esnext", // "moduleResolution": "node",
+    "module": "esnext",
+    "moduleResolution": "bundler",
     "sourceMap": true,
 
     /* If your code runs in the DOM: */
