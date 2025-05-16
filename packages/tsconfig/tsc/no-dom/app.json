@@ -1,27 +1,40 @@
 {
   "compilerOptions": {
     /* Base Options: */
-    "esModuleInterop": true,
-    "skipLibCheck": true,
     "target": "es2022",
     "allowJs": true,
     "resolveJsonModule": true,
+    
+    /* Advanced Options: */
+    "esModuleInterop": true,
     "moduleDetection": "force",
+
+    /* Advanced Options: Bundlers -> babel*/
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
-    /*Emit*/
+
+    /* Advanced Options: Optimitations */
+    "skipLibCheck": true,
+    "importHelpers": false, // tslib if enabled
+    "incremental": true,
+
+    /* Advanced Options: Emit */
     // "emitDecoratorMetadata": true,
     // "experimentalDecorators": true,
+
     /* Strictness */
     "strict": true,
+    "forceConsistentCasingInFileNames": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
+    "strictNullChecks": true,
+    "noFallthroughCasesInSwitch": true,
+
     /* If transpiling with TypeScript: */
     "module": "NodeNext",
     "moduleResolution": "nodenext",
-
-    // "moduleResolution": "node",
     "sourceMap": true,
+    
     /* If your code doesn't run in the DOM: */
     "lib": ["es2022"]
   }
