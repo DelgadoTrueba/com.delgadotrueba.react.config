@@ -6,7 +6,9 @@
   "scripts": {
     "sync": "node scripts/sync-content.js",
     "sync:tsconfig": "npm run sync -- packages/tsconfig dist/tsconfig",
-    "sync:packages": "npm run sync:tsconfig"
+    "sync:packages": "npm run sync:tsconfig",
+    "updateVersion": "node scripts/update-version.js",
+    "prepublishOnly": "npm run sync:packages && npm run updateVersion"
   },
   "repository": {
     "type": "git",
