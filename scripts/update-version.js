@@ -25,7 +25,7 @@ function updateVersionInChangelog(newVersion) {
   try {
     const fileContent = fs.readFileSync(changelogPath, "utf8");
     const lines = fileContent.split("\n");
-    const index = lines.findIndex((line) => line === "# Changelog");
+    const index = lines.findIndex((line) => line.substring("# Changelog"));
 
     if (index === -1) {
       throw new Error("No se encontró el objeto `# Changelog` en el código.");
