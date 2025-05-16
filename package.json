@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/DelgadoTrueba/com.delgadotrueba.react.zeroconfig#readme",
   "workspaces": [
-    "libs/tsconfig",
+    "packages/tsconfig",
     "playground/sum"
   ]
 }
