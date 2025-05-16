@@ -9,12 +9,16 @@
     "moduleDetection": "force",
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
+    /*Emit*/
+    // "emitDecoratorMetadata": true,
+    // "experimentalDecorators": true,
     /* Strictness */
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     /* If transpiling with TypeScript: */
     "module": "NodeNext",
+    // "moduleResolution": "node",
     "sourceMap": true,
     /* If your code doesn't run in the DOM: */
     "lib": ["es2022"],

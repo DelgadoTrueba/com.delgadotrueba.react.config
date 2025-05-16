@@ -2,7 +2,6 @@
 
 > ⚠️ This project is based on the excellent work from [`total-typescript/tsconfig`](https://github.com/total-typescript/tsconfig). Many thanks to Matt Pocock and the contributors for their inspiration.
 
-
 `tsconfig.json` can seem extremely scary. But really, it's only 2 or 3 decisions you need to make.
 
 This package makes those decisions even easier. Based on my [TSConfig Cheat Sheet](https://www.totaltypescript.com/tsconfig-cheat-sheet).
@@ -84,8 +83,29 @@ Mostly relevant for when you're transpiling with `tsc`. If you want to change th
 {
   "extends": "@total-typescript/tsconfig/tsc/no-dom/library",
   "compilerOptions": {
-    "outDir": "dist"
+    "outDir": "dist",
+    "declarationDir": "./dist" //Optional
   }
+}
+```
+
+### `baseUrl` `rootDir`
+
+```json
+{
+  "extends": "@total-typescript/tsconfig/tsc/no-dom/library",
+  "compilerOptions": {
+    /*Alias*/
+    "baseUrl": ".",
+    "rootDir": "."
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules"],
+  "references": [
+    {
+      "path": "./tsconfig.eslint.json"
+    }
+  ]
 }
 ```
 
