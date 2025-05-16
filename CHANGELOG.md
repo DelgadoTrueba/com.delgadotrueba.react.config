@@ -1,5 +1,14 @@
 # Changelog
 
+### Release version <version 0.0.10>
+
+Package: chore
+Scope: remove dist
+
+### Release version <version 0.0.9>
+
+### Release version <version 0.0.8>
+
 ### Release version <version 0.0.7>
 
 ### Release version <version 0.0.6>

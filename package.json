@@ -1,6 +1,6 @@
 {
   "name": "@delgadotrueba/react-config",
-  "version": "0.0.7",
+  "version": "0.0.10",
   "description": "Delgado Trueba React Zero Config",
   "author": "delgadotrueba",
   "license": "MIT",
@@ -19,20 +19,21 @@
   },
   "scripts": {
     "sync": "node scripts/sync-content.js",
-    "sync:tsconfig": "npm run sync -- packages/tsconfig dist/tsconfig",
+    "rm": "node scripts/delete-content.js",
+    "sync:tsconfig": "npm run sync -- packages/tsconfig ./tsconfig",
+    "rm:tsconfig": "npm run rm -- ./tsconfig",
     "sync:packages": "npm run sync:tsconfig",
+    "rm:packages": "npm run rm:tsconfig",
     "updateVersion": "node scripts/update-version.js",
-    "prepublishOnly": "npm run sync:packages && npm run updateVersion"
+    "prepublishOnly": "npm run sync:packages && npm run updateVersion",
+    "postpublish": "npm run rm:packages"
   },
   "publishConfig": {
     "registry": "https://a.com"
   },
   "files": [
-    "dist"
+    "tsconfig"
   ],
-  "exports": {
-    "./*": "./dist/*"
-  },
   "type": "commonjs",
   "sideEffects": false,
   "workspaces": [
