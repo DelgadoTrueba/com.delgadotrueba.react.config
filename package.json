@@ -1,8 +1,22 @@
 {
-  "name": "@delgadotrueba/react-zeroconfig",
-  "version": "0.0.1",
+  "name": "@delgadotrueba/react-config",
+  "version": "0.0.2",
   "description": "Delgado Trueba React Zero Config",
-  "main": "index.js",
+  "author": "delgadotrueba",
+  "license": "MIT",
+  "keywords": [
+    "delgadotrueba",
+    "react",
+    "config"
+  ],
+  "homepage": "https://github.com/DelgadoTrueba/com.delgadotrueba.react.config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DelgadoTrueba/com.delgadotrueba.react.config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DelgadoTrueba/com.delgadotrueba.react.config/issues"
+  },
   "scripts": {
     "sync": "node scripts/sync-content.js",
     "sync:tsconfig": "npm run sync -- packages/tsconfig dist/tsconfig",
@@ -10,22 +24,14 @@
     "updateVersion": "node scripts/update-version.js",
     "prepublishOnly": "npm run sync:packages && npm run updateVersion"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DelgadoTrueba/com.delgadotrueba.react.zeroconfig.git"
+  "publishConfig": {
+    "registry": "https://a.com"
   },
-  "keywords": [
-    "delgadotrueba",
-    "react",
-    "zero-config",
-    "zeroconfig"
+  "files": [
+    "dist"
   ],
-  "author": "delgadotrueba",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/DelgadoTrueba/com.delgadotrueba.react.zeroconfig/issues"
-  },
-  "homepage": "https://github.com/DelgadoTrueba/com.delgadotrueba.react.zeroconfig#readme",
+  "type": "commonjs",
+  "sideEffects": false,
   "workspaces": [
     "packages/tsconfig",
     "playground/sum"

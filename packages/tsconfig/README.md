@@ -1,4 +1,4 @@
-# `@delgadotrueba/react-zeroconfig/tsconfig`
+# `@delgadotrueba/react-config/tsconfig`
 
 > ⚠️ This project is based on the excellent work from [`total-typescript/tsconfig`](https://github.com/total-typescript/tsconfig). Many thanks to Matt Pocock and the contributors for their inspiration.
 
@@ -11,7 +11,7 @@ This package makes those decisions even easier. Based on my [TSConfig Cheat Shee
 1. Install:
 
 ```bash
-npm install --save-dev @delgadotrueba/react-zeroconfig
+npm install --save-dev @delgadotrueba/react-config
 ```
 
 2. Choose which `tsconfig.json` you need from the [list](#list-of-tsconfigs) below.
