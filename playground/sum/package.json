@@ -1,0 +1,13 @@
+{
+  "name": "sum",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:cjs && npm run build:mjs",
+    "build:cjs": "npx tsc -p tsconfig.cjs.json",
+    "build:mjs": "npx tsc -p tsconfig.mjs.json"
+  },
+  "devDependencies": {
+    "@delgadotrueba/react-config": "0.0.2",
+    "typescript": "5.8.3"
+  }
+}

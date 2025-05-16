@@ -15,8 +15,8 @@
 
     /* Advanced Options: Optimitations */
     "skipLibCheck": true,
-    "importHelpers": true, // tslib
-    "incremental": true,
+    "importHelpers": false, // tslib if enabled
+    // "incremental": true,
 
     /* Advanced Options: Emit */
     // "emitDecoratorMetadata": true,
