@@ -4,7 +4,9 @@
   "description": "Delgado Trueba React Zero Config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sync": "node scripts/sync-content.js",
+    "sync:tsconfig": "npm run sync -- packages/tsconfig dist/tsconfig",
+    "sync:packages": "npm run sync:tsconfig"
   },
   "repository": {
     "type": "git",
