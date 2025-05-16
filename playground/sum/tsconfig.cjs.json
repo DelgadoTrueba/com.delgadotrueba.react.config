@@ -2,5 +2,7 @@
   "extends": "@delgadotrueba/react-config/dist/tsconfig/tsc/no-dom/app",
   "compilerOptions": {
     "outDir": "./dist/cjs",
-  }
+    "rootDir": "./src",
+  },
+  "include": ["src/**/*"]
 }

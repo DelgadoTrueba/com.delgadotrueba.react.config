@@ -96,8 +96,8 @@ Mostly relevant for when you're transpiling with `tsc`. If you want to change th
   "extends": "@total-typescript/tsconfig/tsc/no-dom/library",
   "compilerOptions": {
     /*Alias*/
-    "baseUrl": ".",
-    "rootDir": "."
+    "baseUrl": ".", // Desde dónde resuelvo módulos no relativos
+    "rootDir": "./src" // Desde dónde empieza mi código fuente
   },
   "include": ["./src/**/*.ts"],
   "exclude": ["node_modules"],
