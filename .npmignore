@@ -1,0 +1,8 @@
+.gitignore
+.env
+.npmignore
+.npmrc
+.nvmrc
+CHANGELOG.md
+package-lock.json
+package.json
