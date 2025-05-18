@@ -1,3 +1,6 @@
+/packages
+/playground
+/scripts
 .gitignore
 .env
 .npmignore
