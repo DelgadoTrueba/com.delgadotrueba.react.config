@@ -1,5 +1,9 @@
 # Changelog
 
+### Release version <version 0.0.14>
+Package: jest 
+Scope: initial
+
 ### Release version <version 0.0.13>
 
 ### Release version <version 0.0.12>

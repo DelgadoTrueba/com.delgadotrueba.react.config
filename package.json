@@ -1,6 +1,6 @@
 {
   "name": "@delgadotrueba/react-config",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Delgado Trueba React Zero Config",
   "author": "delgadotrueba",
   "license": "MIT",
@@ -22,8 +22,10 @@
     "rm": "node scripts/delete-content.js",
     "sync:tsconfig": "npm run sync -- packages/tsconfig ./tsconfig",
     "rm:tsconfig": "npm run rm -- ./tsconfig",
-    "sync:packages": "npm run sync:tsconfig",
-    "rm:packages": "npm run rm:tsconfig",
+    "sync:jest": "npm run sync -- packages/jest ./jest",
+    "rm:jest": "npm run rm -- ./jest",
+    "sync:packages": "npm run sync:tsconfig && npm run sync:jest",
+    "rm:packages": "npm run rm:tsconfig && npm run rm:jest",
     "updateVersion": "node scripts/update-version.js",
     "prepublishOnly": "npm run sync:packages && npm run updateVersion",
     "postpublish": "npm run rm:packages"
