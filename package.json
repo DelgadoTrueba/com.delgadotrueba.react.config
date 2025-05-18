@@ -38,6 +38,7 @@
   "sideEffects": false,
   "workspaces": [
     "packages/tsconfig",
-    "playground/sum"
+    "playground/sum",
+    "packages/jest"
   ]
 }

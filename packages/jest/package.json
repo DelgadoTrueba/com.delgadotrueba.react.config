@@ -1,0 +1,8 @@
+{
+  "name": "jest",
+  "version": "0.0.13",
+  "type": "commonjs",
+  "exports": {
+    "./preset": "./preset/dom.js"
+  }
+}
