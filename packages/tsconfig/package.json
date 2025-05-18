@@ -1,6 +1,6 @@
 {
   "name": "dt-tsconfig",
-  "version": "0.0.17",
+  "version": "0.0.20",
   "type": "commonjs",
   "exports": {
     "./tsc": "./tsc/dom/app.json",
