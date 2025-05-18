@@ -1,6 +1,6 @@
 module.exports = {
     displayName: 'jest-mjs',
-    preset: './jest.preset.js',
+    preset: '@delgadotrueba/react-config/jest/preset/dom',
     testEnvironment: 'jsdom',
     transform: {
       '^.+\\.[tj]s$': [

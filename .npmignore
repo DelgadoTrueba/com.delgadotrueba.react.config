@@ -6,6 +6,6 @@
 .npmignore
 .npmrc
 .nvmrc
-CHANGELOG.md
+./CHANGELOG.md
 package-lock.json
-package.json
+./package.json

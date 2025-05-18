@@ -1,8 +1,10 @@
 {
   "name": "dt-jest",
-  "version": "0.0.14",
+  "version": "0.0.17",
   "type": "commonjs",
   "exports": {
-    "./preset": "./preset/dom.js"
+    "./preset/dom": "./preset/dom/jest-preset.js",
+    "./preset/no-dom": "./preset/no-dom/jest-preset.js",
+    "./preset/src/**/*.js": "./preset/src/transformers/*.js"
   }
 }
