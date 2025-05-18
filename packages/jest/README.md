@@ -25,6 +25,7 @@ const { compilerOptions } = require("./tsconfig.paths.json");
 
 /** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
+  displayName: 'my-app',
   preset: "@delgadotrueba/react-config/jest-preset",
   setupFilesAfterEnv: ["<rootDir>/src/utils-test/setupTest.ts"],
   transform: {
