@@ -5,6 +5,7 @@ Este paquete reúne las configuraciones estándar utilizadas en los Test Unitari
 ## Instalación
 
 ```sh
+npm install --save-dev @types/jest jest jest-environment-jsdom jest-environment-node ts-jest
 npm install --save-dev @delgadotrueba/react-config
 ```
 

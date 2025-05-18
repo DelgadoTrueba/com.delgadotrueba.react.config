@@ -1,5 +1,5 @@
 {
-  "name": "tsconfig",
+  "name": "dt-tsconfig",
   "version": "0.0.14",
   "type": "commonjs",
   "exports": {
