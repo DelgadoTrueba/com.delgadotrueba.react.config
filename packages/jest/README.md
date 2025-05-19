@@ -34,6 +34,12 @@ module.exports = {
   moduleNameMapper: {
     ...pathsToModuleNameMapper(compilerOptions.paths, { prefix: "<rootDir>/" }),
   },
+    collectCoverageFrom: [
+      'src/**/*.{js,jsx,ts,tsx}',
+      'src/*.{js,jsx,ts,tsx}',
+      '!src/**/*.stories.{js,jsx,ts,tsx}',
+      '!src/**/*.examples.{js,jsx,ts,tsx}'
+    ]
 };
 ```
 

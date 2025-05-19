@@ -29,21 +29,21 @@ module.exports = {
   };
   
   // transformIgnorePatterns: [
-  //     'node_modules/(?!(?:@babel-dcfront/react-i18next|@babel-dcfront/react-http|@babel-dcfront/react-datetime|@babel-dcfront/featureflags|@babel-dcfront/react-model)/)',
+  //     'node_modules/(?!(?:@delgadotueba/react-i18next|@delgadotueba/react-http|@delgadotueba/react-datetime|@delgadotueba/featureflags|@delgadotueba/react-model)/)',
   //   ],
   //   moduleNameMapper: {
   //     ...pathsToModuleNameMapper(compilerOptions.paths, { prefix: '<rootDir>/' }),
   //     '\\.(css|scss|sass)$': '<rootDir>/src/utils-test/mockFiles.ts',
-  //     '^@babel-dcfront/react-i18next$':
-  //       '<rootDir>/node_modules/@babel-dcfront/react-i18next/dist/js/src/index.js',
-  //     '^@babel-dcfront/react-http$':
-  //       '<rootDir>/node_modules/@babel-dcfront/react-http/dist/js/src/index.js',
-  //     '^@babel-dcfront/react-datetime$':
-  //       '<rootDir>/node_modules/@babel-dcfront/react-datetime/dist/js/src/index.js',
-  //     '^@babel-dcfront/catalogo-ui$':
-  //       '<rootDir>/node_modules/@babel-dcfront/catalogo-ui/dist/js/index.js',
-  //     '^@babel-dcfront/featureflags$':
-  //       '<rootDir>/node_modules/@babel-dcfront/featureflags/dist/js/index.js',
-  //     '^@babel-dcfront/react-model$':
-  //       '<rootDir>/node_modules/@babel-dcfront/react-model/dist/js/src/index.js',
+  //     '^@delgadotueba/react-i18next$':
+  //       '<rootDir>/node_modules/@delgadotueba/react-i18next/dist/js/src/index.js',
+  //     '^@delgadotueba/react-http$':
+  //       '<rootDir>/node_modules/@delgadotueba/react-http/dist/js/src/index.js',
+  //     '^@delgadotueba/react-datetime$':
+  //       '<rootDir>/node_modules/@delgadotueba/react-datetime/dist/js/src/index.js',
+  //     '^@delgadotueba/catalogo-ui$':
+  //       '<rootDir>/node_modules/@delgadotueba/catalogo-ui/dist/js/index.js',
+  //     '^@delgadotueba/featureflags$':
+  //       '<rootDir>/node_modules/@delgadotueba/featureflags/dist/js/index.js',
+  //     '^@delgadotueba/react-model$':
+  //       '<rootDir>/node_modules/@delgadotueba/react-model/dist/js/src/index.js',
   //   },
