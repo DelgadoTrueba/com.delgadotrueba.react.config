@@ -11,6 +11,6 @@
     "test:coverage": "npm run test:cjs -- --coverage && npm run test:mjs -- --coverage"
   },
   "devDependencies": {
-    "@delgadotrueba/react-config": "0.0.20"
+    "@delgadotrueba/react-config": "0.0.21"
   }
 }

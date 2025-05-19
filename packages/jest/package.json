@@ -1,6 +1,6 @@
 {
   "name": "dt-jest",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "type": "commonjs",
   "exports": {
     "./preset/dom": "./preset/dom/jest-preset.js",
