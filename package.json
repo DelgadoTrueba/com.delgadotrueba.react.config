@@ -46,6 +46,7 @@
   "workspaces": [
     "packages/tsconfig",
     "playground/sum",
-    "packages/jest"
+    "packages/jest",
+    "packages/webpack"
   ]
 }
