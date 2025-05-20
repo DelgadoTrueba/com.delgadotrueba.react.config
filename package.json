@@ -49,6 +49,7 @@
     "packages/tsconfig",
     "playground/sum",
     "packages/jest",
-    "packages/webpack"
+    "packages/webpack",
+    "playground/hello-world"
   ]
 }

@@ -1,6 +1,5 @@
 {
   "name": "sum",
-  "main": "index.js",
   "scripts": {
     "build": "npm run build:mjs && npm run build:cjs",
     "build:cjs": "npx tsc -p tsconfig.cjs.json",
