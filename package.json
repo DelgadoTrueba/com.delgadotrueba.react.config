@@ -1,6 +1,6 @@
 {
   "name": "@delgadotrueba/react-config",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "Delgado Trueba React Zero Config",
   "author": "delgadotrueba",
   "license": "MIT",
@@ -24,8 +24,10 @@
     "rm:tsconfig": "npm run rm -- ./tsconfig",
     "sync:jest": "npm run sync -- packages/jest ./jest",
     "rm:jest": "npm run rm -- ./jest",
-    "sync:packages": "npm run sync:tsconfig && npm run sync:jest",
-    "rm:packages": "npm run rm:tsconfig && npm run rm:jest",
+    "sync:webpack": "npm run sync -- packages/webpack ./webpack",
+    "rm:webpack": "npm run rm -- ./webpack",
+    "sync:packages": "npm run sync:tsconfig && npm run sync:jest && npm run sync:webpack",
+    "rm:packages": "npm run rm:tsconfig && npm run rm:jest && npm run rm:webpack",
     "updateVersion": "node scripts/update-version.js",
     "prepublishOnly": "npm run sync:packages && npm run updateVersion",
     "postpublish": "npm run rm:packages"

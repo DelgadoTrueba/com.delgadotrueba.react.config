@@ -1,7 +1,10 @@
 {
   "name": "dt-webpack",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "type": "commonjs",
+  "bin": {
+    "webpack-cli": "./bin/webpack-cli.js"
+  },
   "devDependencies": {
     "@babel/core": "7.27.1",
     "@babel/plugin-transform-runtime": "7.27.1",

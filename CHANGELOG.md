@@ -1,5 +1,9 @@
 # Changelog
 
+### Release version <version 0.0.22>
+Package: webpack 
+Scope: initial
+
 ### Release version <version 0.0.21>
 
 ### Release version <version 0.0.20>
