@@ -1,0 +1,14 @@
+{
+  "extends": "@delgadotrueba/react-config/tsconfig/tsc/dom/app",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.spec.ts",
+    "./src/**/*.tsx",
+    "./global.d.ts",
+    "./src/**/*.json"
+  ]
+}

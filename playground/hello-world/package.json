@@ -1,6 +1,11 @@
 {
   "name": "hello-world",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx @delgadotrueba/react-config/webpack -- webpack.config.js",
+    "test": "npx jest -c jest.config.js --verbose",
+    "test:coverage": "npm run test --coverage"
+  },
+  "devDependencies": {
+    "@delgadotrueba/react-config": "0.0.25"
   }
 }

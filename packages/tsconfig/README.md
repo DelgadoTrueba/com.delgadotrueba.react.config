@@ -99,7 +99,13 @@ Mostly relevant for when you're transpiling with `tsc`. If you want to change th
     "baseUrl": ".", // Desde dónde resuelvo módulos no relativos
     "rootDir": "./src" // Desde dónde empieza mi código fuente
   },
-  "include": ["./src/**/*.ts"],
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.spec.ts",
+    "./src/**/*.tsx",
+    "./global.d.ts",
+    "./src/**/*.json"
+  ],
   "exclude": ["node_modules"],
   "references": [
     {

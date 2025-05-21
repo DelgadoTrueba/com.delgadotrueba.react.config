@@ -1,6 +1,6 @@
 {
   "name": "@delgadotrueba/react-config",
-  "version": "0.0.22",
+  "version": "0.0.26",
   "description": "Delgado Trueba React Zero Config",
   "author": "delgadotrueba",
   "license": "MIT",
@@ -44,6 +44,9 @@
     "registry": "https://npm.pkg.github.com"
   },
   "type": "commonjs",
+  "exports": {
+    "./webpack": "./webpack/package.json"
+  },
   "sideEffects": false,
   "workspaces": [
     "packages/tsconfig",
