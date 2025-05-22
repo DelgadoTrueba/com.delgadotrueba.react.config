@@ -1,11 +1,18 @@
 {
   "name": "hello-world",
+  "type": "commonjs",
   "scripts": {
-    "build": "npx @delgadotrueba/react-config/webpack -- webpack.config.js",
+    "build": "npx @delgadotrueba/react-config webpack --config ./webpack.config.js",
+    "dev": "npx @delgadotrueba/react-config webpack serve --config ./webpack.config.js --mode development --live-reload --hot",
     "test": "npx jest -c jest.config.js --verbose",
     "test:coverage": "npm run test --coverage"
   },
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-router-dom": "7.6.0"
+  },
   "devDependencies": {
-    "@delgadotrueba/react-config": "0.0.25"
+    "@delgadotrueba/react-config": "0.0.34"
   }
 }

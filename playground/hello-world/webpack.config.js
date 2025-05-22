@@ -1,3 +1,14 @@
-import { withDefaults } from '@delgadotrueba/react-config/webpack';
+const path = require("path");
 
-module.exports = withDefaults();
+const { withDefaults } = require("@delgadotrueba/react-config/webpack");
+
+const defaultWebpack = withDefaults({
+  output: {
+    uniqueName: "hello-world",
+    path: path.resolve(__dirname, "dist"),
+  },
+});
+
+console.log(defaultWebpack());
+
+module.exports = defaultWebpack;

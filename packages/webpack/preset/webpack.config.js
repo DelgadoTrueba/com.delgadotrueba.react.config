@@ -139,7 +139,7 @@ module.exports = {
           "process.env.PUBLIC_PATH": JSON.stringify(process.env.PUBLIC_PATH),
         }),
       ],
-      devServer,
+      // devServer,
       devtool: withSource ? "cheap-module-source-map" : false,
       // ignoreWarnings: [
       //   {
