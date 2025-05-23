@@ -56,5 +56,8 @@
     "packages/jest",
     "packages/webpack",
     "playground/hello-world"
-  ]
+  ],
+  "dependencies": {
+    "@dotenvx/dotenvx": "1.44.1"
+  }
 }

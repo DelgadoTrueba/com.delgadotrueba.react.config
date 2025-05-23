@@ -2,8 +2,8 @@
   "name": "hello-world",
   "type": "commonjs",
   "scripts": {
-    "build": "npx @delgadotrueba/react-config webpack --config ./webpack.config.js",
-    "dev": "npx @delgadotrueba/react-config webpack serve --config ./webpack.config.js --mode development --live-reload --hot",
+    "dev": "npx @dotenvx/dotenvx run -f .env.local -- npx @delgadotrueba/react-config webpack serve --config ./webpack.config.js --mode development --live-reload --hot",
+    "build:local": "npx @dotenvx/dotenvx run -f .env.local -- npx @delgadotrueba/react-config webpack --config ./webpack.config.js",
     "test": "npx jest -c jest.config.js --verbose",
     "test:coverage": "npm run test --coverage"
   },
