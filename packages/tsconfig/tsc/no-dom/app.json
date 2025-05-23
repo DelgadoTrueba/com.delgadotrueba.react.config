@@ -11,7 +11,7 @@
 
     /* Advanced Options: Bundlers -> babel*/
     "isolatedModules": true,
-    "verbatimModuleSyntax": true,
+    // "verbatimModuleSyntax": true,
 
     /* Advanced Options: Optimitations */
     "skipLibCheck": true,
