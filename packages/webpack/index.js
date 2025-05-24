@@ -1,10 +1,10 @@
 const { merge } = require("webpack-merge");
-const { getDefaultConfig } = require("./preset/webpack.config");
+const { getDefaultAppConfig } = require("./preset/app/webpack.config");
 
 module.exports = {
-  withDefaults: (customConfig = {}) => {
+  createAppConfig: (customConfig = {}) => {
     return (env = {}, argv = {}) => {
-      const baseConfig = getDefaultConfig(env, argv);
+      const baseConfig = getDefaultAppConfig(env, argv);
       return merge(baseConfig, customConfig);
     };
   },

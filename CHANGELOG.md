@@ -1,5 +1,7 @@
 # Changelog
 
+### Release version <version 0.0.42>
+
 ### Release version <version 0.0.41>
 
 ### Release version <version 0.0.40>

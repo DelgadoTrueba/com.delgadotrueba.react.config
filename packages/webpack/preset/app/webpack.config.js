@@ -18,7 +18,7 @@ const jsChunkBuildFilename = "static/js/[name].[chunkhash:8].chunk.js";
 const cssBuildFilename = "static/css/[name].[contenthash:8].css";
 
 module.exports = {
-  getDefaultConfig: (env = {}, argv = {}) => {
+  getDefaultAppConfig: (env = {}, argv = {}) => {
     const isDevelopment = argv.mode === "development";
     const withSource = process.env.SOURCE_MAP === "true" ? true : false;
 
