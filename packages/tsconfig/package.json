@@ -1,6 +1,6 @@
 {
   "name": "dt-tsconfig",
-  "version": "0.0.38",
+  "version": "0.0.40",
   "type": "commonjs",
   "devDependencies": {
     "typescript": "5.8.3"

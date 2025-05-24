@@ -7,6 +7,7 @@ const subcommand = process.argv[2];
 const subcommandsMap = {
   webpack: path.join(__dirname, '../webpack/bin/index.js'),
   tsc: path.join(__dirname, '../tsconfig/bin/index.js'),
+  jest: path.join(__dirname, '../jest/bin/index.js'),
 };
 
 if (!subcommandsMap[subcommand]) {
