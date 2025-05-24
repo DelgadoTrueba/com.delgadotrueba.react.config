@@ -5,9 +5,9 @@ const { spawn } = require('child_process');
 // Obtener archivo de configuración desde argumentos o usar uno por defecto
 const args = process.argv.slice(2);
 
-const webpackPath = require.resolve('webpack/bin/webpack.js');
+const typescriptPath = require.resolve('typescript/bin/tsc');
 
-const child = spawn('node', [webpackPath, ...args], {
+const child = spawn('node', [typescriptPath, ...args], {
   stdio: 'inherit',
 });
 

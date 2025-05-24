@@ -11,10 +11,9 @@
   "dependencies": {
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "react-router-dom": "7.6.0",
-    "typescript": "5.8.3"
+    "react-router-dom": "7.6.0"
   },
   "devDependencies": {
-    "@delgadotrueba/react-config": "0.0.37"
+    "@delgadotrueba/react-config": "0.0.38"
   }
 }

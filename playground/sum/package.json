@@ -2,14 +2,14 @@
   "name": "sum",
   "scripts": {
     "build": "npm run build:mjs && npm run build:cjs",
-    "build:cjs": "npx tsc -p tsconfig.cjs.json",
-    "build:mjs": "npx tsc -p tsconfig.mjs.json",
+    "build:cjs": "npx @delgadotrueba/react-config tsc -p tsconfig.cjs.json",
+    "build:mjs": "npx @delgadotrueba/react-config tsc -p tsconfig.mjs.json",
     "test": "npm run test:cjs && npm run test:mjs",
     "test:cjs": "npx jest -c jest.cjs.config.js --verbose",
     "test:mjs": "npx jest -c jest.mjs.config.js --verbose",
     "test:coverage": "npm run test:cjs -- --coverage && npm run test:mjs -- --coverage"
   },
   "devDependencies": {
-    "@delgadotrueba/react-config": "0.0.37"
+    "@delgadotrueba/react-config": "0.0.38"
   }
 }
