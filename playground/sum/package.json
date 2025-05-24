@@ -5,11 +5,11 @@
     "build:cjs": "npx @delgadotrueba/react-config tsc -p tsconfig.cjs.json",
     "build:mjs": "npx @delgadotrueba/react-config tsc -p tsconfig.mjs.json",
     "test": "npm run test:cjs && npm run test:mjs",
-    "test:cjs": "npx jest -c jest.cjs.config.js --verbose",
-    "test:mjs": "npx jest -c jest.mjs.config.js --verbose",
+    "test:cjs": "npx @delgadotrueba/react-config jest -c jest.cjs.config.js --verbose",
+    "test:mjs": "npx @delgadotrueba/react-config jest -c jest.mjs.config.js --verbose",
     "test:coverage": "npm run test:cjs -- --coverage && npm run test:mjs -- --coverage"
   },
   "devDependencies": {
-    "@delgadotrueba/react-config": "0.0.38"
+    "@delgadotrueba/react-config": "0.0.40"
   }
 }

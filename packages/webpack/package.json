@@ -1,6 +1,6 @@
 {
   "name": "dt-webpack",
-  "version": "0.0.40",
+  "version": "0.0.41",
   "type": "commonjs",
   "devDependencies": {
     "@babel/core": "7.27.1",
