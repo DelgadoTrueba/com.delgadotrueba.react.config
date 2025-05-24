@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "@babel/preset-typescript", // Transforma TypeScript a JavaScript
+    "@babel/preset-react",      // Transforma JSX (React) a JS
+    "@babel/preset-env"         // Transforma JS moderno (ES6+) a versiones más compatibles
+  ],
+  "plugins": [
+    // Posible optimización evita duplicar helpers como extends, asyncToGenerator, etc., en cada archivo transformado.
+    // problema tienes que instalar npm install --save @babel/runtime como save porque se usa en el codigo
+    // ["@babel/transform-runtime"]
+  ],
+  "sourceMaps": true
+}
+

@@ -1,6 +1,6 @@
 {
   "name": "dt-jest",
-  "version": "0.0.42",
+  "version": "0.0.44",
   "type": "commonjs",
   "devDependencies": {
     "@types/jest": "29.5.14",

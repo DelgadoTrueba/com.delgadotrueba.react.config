@@ -5,6 +5,7 @@
   },
   "include": [
     "jest.cjs.config.ts",
+    "src/utils-test/setupTest.ts",
     "src/**/*.test.ts",
     "src/**/*.spec.ts",
     "src/**/*.d.ts"

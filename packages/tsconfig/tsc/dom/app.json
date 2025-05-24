@@ -16,7 +16,7 @@
 
     /* Advanced Options: Optimitations */
     "skipLibCheck": true,
-    "importHelpers": false, // tslib if enabled
+    "importHelpers": false, // posible optimizacion tslib if enabled
     "incremental": true,
 
     /* Advanced Options: Emit */
