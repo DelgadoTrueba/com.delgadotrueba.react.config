@@ -1,8 +1,12 @@
 {
   "name": "dt-jest",
-  "version": "0.0.44",
+  "version": "0.0.47",
   "type": "commonjs",
   "devDependencies": {
+    "@testing-library/dom": "10.4.0",
+    "@testing-library/jest-dom": "6.6.3",
+    "@testing-library/react": "16.3.0",
+    "@testing-library/user-event": "14.6.1",
     "@types/jest": "29.5.14",
     "jest": "29.7.0",
     "jest-environment-jsdom": "29.7.0",
@@ -11,6 +15,7 @@
   },
   "exports": {
     "./preset/dom": "./preset/dom/jest-preset.js",
-    "./preset/no-dom": "./preset/no-dom/jest-preset.js"
+    "./preset/no-dom": "./preset/no-dom/jest-preset.js",
+    "./baseSetupTest": "./baseSetupTest.ts"
   }
 }

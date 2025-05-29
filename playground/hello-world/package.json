@@ -5,7 +5,7 @@
     "dev": "npx @dotenvx/dotenvx run -f .env.local -- npx @delgadotrueba/react-config webpack serve --config ./webpack.config.js --mode development --live-reload --hot",
     "build:local": "npx @dotenvx/dotenvx run -f .env.local -- npx @delgadotrueba/react-config webpack --config ./webpack.config.js --mode development",
     "build:prod": "npx @dotenvx/dotenvx run -f .env.prod -- npx @delgadotrueba/react-config webpack --config ./webpack.config.js --mode production",
-    "test": "npx jest -c jest.config.js --verbose",
+    "test": "npx @delgadotrueba/react-config jest -c jest.config.js --verbose",
     "test:coverage": "npm run test --coverage"
   },
   "dependencies": {
@@ -14,6 +14,6 @@
     "react-router-dom": "7.6.0"
   },
   "devDependencies": {
-    "@delgadotrueba/react-config": "0.0.44"
+    "@delgadotrueba/react-config": "0.0.46"
   }
 }

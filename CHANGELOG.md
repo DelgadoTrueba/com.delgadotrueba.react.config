@@ -1,5 +1,12 @@
 # Changelog
 
+### Release version <version 0.0.47>
+
+### Release version <version 0.0.46>
+* Test in webpack
+
+### Release version <version 0.0.45>
+
 ### Release version <version 0.0.44>
 
 ### Release version <version 0.0.43>
